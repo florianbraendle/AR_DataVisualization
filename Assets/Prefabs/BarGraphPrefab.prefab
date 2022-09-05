@@ -137,35 +137,35 @@ MonoBehaviour:
     barColor: {r: 0.04111779, g: 0.990566, b: 0.199838, a: 0}
     barMaterial: {fileID: 0}
     ListOfBars:
-    - XValue: Sachsen-Anhalt
+    - XValue: ST
       YValue: 3.5
-    - XValue: Hessen
+    - XValue: HE
       YValue: 3.4
-    - XValue: Saarland
+    - XValue: SL
       YValue: 3.4
-    - XValue: Bremen
+    - XValue: HB
       YValue: 3.2
-    - XValue: Schleswig-Holsetin
+    - XValue: SH
       YValue: 3.2
-    - XValue: Rheinland-Pfalz
+    - XValue: RP
       YValue: 3.2
-    - XValue: Nordrhein-Westfalen
+    - XValue: NRW
       YValue: 3.2
-    - XValue: Niedersachsen
+    - XValue: NI
       YValue: 3
-    - XValue: Sachsen
+    - XValue: SN
       YValue: 2.8
-    - XValue: Hamburg
+    - XValue: HH
       YValue: 2.8
-    - XValue: "Baden-W\xFCrttemberg"
+    - XValue: BW
       YValue: 2.7
-    - XValue: Bayern
+    - XValue: BY
       YValue: 2.7
-    - XValue: Brandenburg
+    - XValue: BB
       YValue: 2.6
-    - XValue: Berlin
+    - XValue: BE
       YValue: 2.5
-    - XValue: Mecklenburg-Vorpommern
+    - XValue: MV
       YValue: 2.5
-    - XValue: "Th\xFCringen"
+    - XValue: TH
       YValue: 2.4
