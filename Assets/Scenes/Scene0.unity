@@ -486,6 +486,7 @@ GameObject:
   - component: {fileID: 427683222}
   - component: {fileID: 427683221}
   - component: {fileID: 427683220}
+  - component: {fileID: 427683223}
   m_Layer: 5
   m_Name: BtnBeer
   m_TagString: Untagged
@@ -556,7 +557,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 427683221}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 427683223}
+        m_TargetAssemblyTypeName: beerChartScript, Assembly-CSharp
+        m_MethodName: whenBeerBtnClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &427683221
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -595,6 +608,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 427683218}
   m_CullTransparentMesh: 1
+--- !u!114 &427683223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 427683218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 109c28ad3b924dc40ac14959ebf3b423, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coffeeBarchart: {fileID: 2728440125337782225}
+  beerBarchart: {fileID: 1479209924}
+  studentBarchart: {fileID: 430407839}
 --- !u!1001 &430407838
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -606,6 +634,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BarGraphStudent
+      objectReference: {fileID: 0}
+    - target: {fileID: 2728440125144014950, guid: 87c155b0fadc68c4da3d915ce90e1b19,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2728440125144014951, guid: 87c155b0fadc68c4da3d915ce90e1b19,
         type: 3}
@@ -779,6 +812,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 87c155b0fadc68c4da3d915ce90e1b19, type: 3}
+--- !u!1 &430407839 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2728440125144014950, guid: 87c155b0fadc68c4da3d915ce90e1b19,
+    type: 3}
+  m_PrefabInstance: {fileID: 430407838}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &502231622
 GameObject:
   m_ObjectHideFlags: 0
@@ -1089,6 +1128,7 @@ GameObject:
   - component: {fileID: 1150555794}
   - component: {fileID: 1150555793}
   - component: {fileID: 1150555792}
+  - component: {fileID: 1150555795}
   m_Layer: 5
   m_Name: BtnCoffee
   m_TagString: Untagged
@@ -1159,7 +1199,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1150555793}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1150555795}
+        m_TargetAssemblyTypeName: coffeeChartScript, Assembly-CSharp
+        m_MethodName: whenCoffeeBtnClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1150555793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1198,6 +1250,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1150555790}
   m_CullTransparentMesh: 1
+--- !u!114 &1150555795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1150555790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a90a5cc90c37854a948e00ab9d93cf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coffeeBarchart: {fileID: 2728440125337782225}
+  beerBarchart: {fileID: 1479209924}
+  studentBarchart: {fileID: 430407839}
 --- !u!1 &1169043578
 GameObject:
   m_ObjectHideFlags: 0
@@ -1361,6 +1428,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BarGraphBeer
+      objectReference: {fileID: 0}
+    - target: {fileID: 2728440125144014950, guid: 87c155b0fadc68c4da3d915ce90e1b19,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2728440125144014951, guid: 87c155b0fadc68c4da3d915ce90e1b19,
         type: 3}
@@ -1534,6 +1606,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 87c155b0fadc68c4da3d915ce90e1b19, type: 3}
+--- !u!1 &1479209924 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2728440125144014950, guid: 87c155b0fadc68c4da3d915ce90e1b19,
+    type: 3}
+  m_PrefabInstance: {fileID: 1479209923}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1879954709
 GameObject:
   m_ObjectHideFlags: 0
@@ -1546,6 +1624,7 @@ GameObject:
   - component: {fileID: 1879954713}
   - component: {fileID: 1879954712}
   - component: {fileID: 1879954711}
+  - component: {fileID: 1879954714}
   m_Layer: 5
   m_Name: BtnStudent
   m_TagString: Untagged
@@ -1616,7 +1695,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1879954712}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1879954714}
+        m_TargetAssemblyTypeName: studentChartScript, Assembly-CSharp
+        m_MethodName: whenStudentBtnClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1879954712
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1655,6 +1746,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1879954709}
   m_CullTransparentMesh: 1
+--- !u!114 &1879954714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1879954709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8abe824beee87a741ae18b43d66fecf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coffeeBarchart: {fileID: 2728440125337782225}
+  beerBarchart: {fileID: 1479209924}
+  studentBarchart: {fileID: 430407839}
 --- !u!1 &2087559576
 GameObject:
   m_ObjectHideFlags: 0
@@ -1712,6 +1818,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BarGraphCoffee
+      objectReference: {fileID: 0}
+    - target: {fileID: 2728440125144014950, guid: 87c155b0fadc68c4da3d915ce90e1b19,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2728440125144014953, guid: 87c155b0fadc68c4da3d915ce90e1b19,
         type: 3}
@@ -1785,3 +1896,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 87c155b0fadc68c4da3d915ce90e1b19, type: 3}
+--- !u!1 &2728440125337782225 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2728440125144014950, guid: 87c155b0fadc68c4da3d915ce90e1b19,
+    type: 3}
+  m_PrefabInstance: {fileID: 2728440125337782224}
+  m_PrefabAsset: {fileID: 0}
