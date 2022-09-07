@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class studentChartScript : MonoBehaviour
 {
     public GameObject coffeeBarchart, beerBarchart, studentBarchart;
+    public Image defaultDetailImage;
+    public Sprite detailImageStudent;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +25,8 @@ public class studentChartScript : MonoBehaviour
             studentBarchart.SetActive(false);
         } else {
             studentBarchart.SetActive(true);
+            defaultDetailImage.sprite = detailImageStudent;
+            defaultDetailImage.rectTransform.sizeDelta = new Vector2(100, 100);
             beerBarchart.SetActive(false);
             coffeeBarchart.SetActive(false);
         }
