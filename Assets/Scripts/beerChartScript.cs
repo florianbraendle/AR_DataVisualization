@@ -8,6 +8,7 @@ public class beerChartScript : MonoBehaviour
     public GameObject coffeeBarchart, beerBarchart, studentBarchart;
     public Image defaultDetailImage;
     public Sprite detailImageBeer;
+    public GameObject detailCard;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +22,7 @@ public class beerChartScript : MonoBehaviour
     }
 
     public void whenBeerBtnClicked() {
+        detailCard.SetActive(false);
         if(beerBarchart.activeInHierarchy == true) {
             beerBarchart.SetActive(false);
         } else {
