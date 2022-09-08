@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.Events;
 using TMPro;
 
-public class bwScript : MonoBehaviour
+public class stateScript : MonoBehaviour
 {
     public GameObject coffeeBarchart, beerBarchart, studentBarchart;
     public TMPro.TextMeshProUGUI detailText;
