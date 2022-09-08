@@ -446,6 +446,62 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 239547268}
   m_CullTransparentMesh: 1
+--- !u!1 &292529216 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -5448659854804483205, guid: cc270a305fa91777396f0e5828cf5e99,
+    type: 3}
+  m_PrefabInstance: {fileID: 1368874960}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &292529220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 292529216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14de6b9f8bb98f4409c6310f650f4218, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coffeeBarchart: {fileID: 2728440125337782225}
+  beerBarchart: {fileID: 1479209924}
+  studentBarchart: {fileID: 430407839}
+  detailText: {fileID: 1665072186}
+  definedButton: {fileID: 292529216}
+  OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 292529220}
+        m_TargetAssemblyTypeName: stateScript, Assembly-CSharp
+        m_MethodName: showDetail
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  detailCard: {fileID: 646449165}
+  coffeeAmount: 3
+  beerAmount: 5.512
+  studentAmount: 201.472
+--- !u!64 &292529221
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 292529216}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7384672741430749471, guid: cc270a305fa91777396f0e5828cf5e99, type: 3}
 --- !u!1 &348371569
 GameObject:
   m_ObjectHideFlags: 0
@@ -530,6 +586,62 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: -6.327, y: 14.437, z: 4.635}
+--- !u!1 &389333654 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3306915687171157116, guid: cc270a305fa91777396f0e5828cf5e99,
+    type: 3}
+  m_PrefabInstance: {fileID: 1368874960}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &389333658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 389333654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14de6b9f8bb98f4409c6310f650f4218, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coffeeBarchart: {fileID: 2728440125337782225}
+  beerBarchart: {fileID: 1479209924}
+  studentBarchart: {fileID: 430407839}
+  detailText: {fileID: 1665072186}
+  definedButton: {fileID: 389333654}
+  OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 389333658}
+        m_TargetAssemblyTypeName: stateScript, Assembly-CSharp
+        m_MethodName: showDetail
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  detailCard: {fileID: 646449165}
+  coffeeAmount: 2.5
+  beerAmount: 2.561
+  studentAmount: 39.041
+--- !u!64 &389333659
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 389333654}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4474598845515312005, guid: cc270a305fa91777396f0e5828cf5e99, type: 3}
 --- !u!1 &427683218
 GameObject:
   m_ObjectHideFlags: 0
@@ -961,6 +1073,62 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 4.11, y: 44.639, z: -7.865}
+--- !u!1 &526212523 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4321515269659862435, guid: cc270a305fa91777396f0e5828cf5e99,
+    type: 3}
+  m_PrefabInstance: {fileID: 1368874960}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &526212527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526212523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14de6b9f8bb98f4409c6310f650f4218, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coffeeBarchart: {fileID: 2728440125337782225}
+  beerBarchart: {fileID: 1479209924}
+  studentBarchart: {fileID: 430407839}
+  detailText: {fileID: 1665072186}
+  definedButton: {fileID: 526212523}
+  OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 526212527}
+        m_TargetAssemblyTypeName: stateScript, Assembly-CSharp
+        m_MethodName: showDetail
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  detailCard: {fileID: 646449165}
+  coffeeAmount: 2.8
+  beerAmount: 2.716
+  studentAmount: 119.110
+--- !u!64 &526212528
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526212523}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7700253488551107911, guid: cc270a305fa91777396f0e5828cf5e99, type: 3}
 --- !u!1 &646449165
 GameObject:
   m_ObjectHideFlags: 0
@@ -1062,6 +1230,330 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &661977490 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3040448699462623219, guid: cc270a305fa91777396f0e5828cf5e99,
+    type: 3}
+  m_PrefabInstance: {fileID: 1368874960}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &661977494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 661977490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14de6b9f8bb98f4409c6310f650f4218, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coffeeBarchart: {fileID: 2728440125337782225}
+  beerBarchart: {fileID: 1479209924}
+  studentBarchart: {fileID: 430407839}
+  detailText: {fileID: 1665072186}
+  definedButton: {fileID: 661977490}
+  OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 661977494}
+        m_TargetAssemblyTypeName: stateScript, Assembly-CSharp
+        m_MethodName: showDetail
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  detailCard: {fileID: 646449165}
+  coffeeAmount: 2.4
+  beerAmount: 2.264
+  studentAmount: 124.918
+--- !u!64 &661977495
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 661977490}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4374793219589155850, guid: cc270a305fa91777396f0e5828cf5e99, type: 3}
+--- !u!1 &693494041 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3966044511746396147, guid: cc270a305fa91777396f0e5828cf5e99,
+    type: 3}
+  m_PrefabInstance: {fileID: 1368874960}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &693494045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 693494041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14de6b9f8bb98f4409c6310f650f4218, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coffeeBarchart: {fileID: 2728440125337782225}
+  beerBarchart: {fileID: 1479209924}
+  studentBarchart: {fileID: 430407839}
+  detailText: {fileID: 1665072186}
+  definedButton: {fileID: 693494041}
+  OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 693494045}
+        m_TargetAssemblyTypeName: stateScript, Assembly-CSharp
+        m_MethodName: showDetail
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  detailCard: {fileID: 646449165}
+  coffeeAmount: 3.4
+  beerAmount: 4.305
+  studentAmount: 31.835
+--- !u!64 &693494046
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 693494041}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5011012816119873709, guid: cc270a305fa91777396f0e5828cf5e99, type: 3}
+--- !u!1 &703407583 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6768839394742056271, guid: cc270a305fa91777396f0e5828cf5e99,
+    type: 3}
+  m_PrefabInstance: {fileID: 1368874960}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &703407587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703407583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14de6b9f8bb98f4409c6310f650f4218, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coffeeBarchart: {fileID: 2728440125337782225}
+  beerBarchart: {fileID: 1479209924}
+  studentBarchart: {fileID: 430407839}
+  detailText: {fileID: 1665072186}
+  definedButton: {fileID: 703407583}
+  OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 703407587}
+        m_TargetAssemblyTypeName: stateScript, Assembly-CSharp
+        m_MethodName: showDetail
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  detailCard: {fileID: 646449165}
+  coffeeAmount: 2.8
+  beerAmount: 6.341
+  studentAmount: 105.868
+--- !u!64 &703407588
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703407583}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1630685790264580039, guid: cc270a305fa91777396f0e5828cf5e99, type: 3}
+--- !u!1 &776735908 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6278445230976680005, guid: cc270a305fa91777396f0e5828cf5e99,
+    type: 3}
+  m_PrefabInstance: {fileID: 1368874960}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &776735912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776735908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14de6b9f8bb98f4409c6310f650f4218, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coffeeBarchart: {fileID: 2728440125337782225}
+  beerBarchart: {fileID: 1479209924}
+  studentBarchart: {fileID: 430407839}
+  detailText: {fileID: 1665072186}
+  definedButton: {fileID: 776735908}
+  OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+  detailCard: {fileID: 646449165}
+  coffeeAmount: 3.2
+  beerAmount: 5.512
+  studentAmount: 37.393
+--- !u!64 &776735913
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776735908}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 9095174465758426580, guid: cc270a305fa91777396f0e5828cf5e99, type: 3}
+--- !u!1 &778948415 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7674165942449954137, guid: cc270a305fa91777396f0e5828cf5e99,
+    type: 3}
+  m_PrefabInstance: {fileID: 1368874960}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &778948419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 778948415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14de6b9f8bb98f4409c6310f650f4218, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coffeeBarchart: {fileID: 2728440125337782225}
+  beerBarchart: {fileID: 1479209924}
+  studentBarchart: {fileID: 430407839}
+  detailText: {fileID: 1665072186}
+  definedButton: {fileID: 778948415}
+  OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 778948419}
+        m_TargetAssemblyTypeName: stateScript, Assembly-CSharp
+        m_MethodName: showDetail
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  detailCard: {fileID: 646449165}
+  coffeeAmount: 3.2
+  beerAmount: 2.716
+  studentAmount: 67.447
+--- !u!64 &778948420
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 778948415}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8361537286253348866, guid: cc270a305fa91777396f0e5828cf5e99, type: 3}
+--- !u!1 &816155588 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7716383710576093837, guid: cc270a305fa91777396f0e5828cf5e99,
+    type: 3}
+  m_PrefabInstance: {fileID: 1368874960}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &816155592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 816155588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14de6b9f8bb98f4409c6310f650f4218, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coffeeBarchart: {fileID: 2728440125337782225}
+  beerBarchart: {fileID: 1479209924}
+  studentBarchart: {fileID: 430407839}
+  detailText: {fileID: 1665072186}
+  definedButton: {fileID: 816155588}
+  OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 816155592}
+        m_TargetAssemblyTypeName: stateScript, Assembly-CSharp
+        m_MethodName: showDetail
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  detailCard: {fileID: 646449165}
+  coffeeAmount: 2.5
+  beerAmount: 3.365
+  studentAmount: 203.869
+--- !u!64 &816155593
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 816155588}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6756083079916983658, guid: cc270a305fa91777396f0e5828cf5e99, type: 3}
 --- !u!1001 &844370703
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1281,6 +1773,62 @@ Transform:
   m_Father: {fileID: 2087559578}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0.667, y: -150.597, z: 2.494}
+--- !u!1 &1122885769 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -56140010633795780, guid: cc270a305fa91777396f0e5828cf5e99,
+    type: 3}
+  m_PrefabInstance: {fileID: 1368874960}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1122885773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1122885769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14de6b9f8bb98f4409c6310f650f4218, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coffeeBarchart: {fileID: 2728440125337782225}
+  beerBarchart: {fileID: 1479209924}
+  studentBarchart: {fileID: 430407839}
+  detailText: {fileID: 1665072186}
+  definedButton: {fileID: 1122885769}
+  OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1122885769}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  detailCard: {fileID: 646449165}
+  coffeeAmount: 2.6
+  beerAmount: 3.365
+  studentAmount: 50.549
+--- !u!64 &1122885774
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1122885769}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5588437232481393899, guid: cc270a305fa91777396f0e5828cf5e99, type: 3}
 --- !u!1 &1150555790
 GameObject:
   m_ObjectHideFlags: 0
@@ -1501,6 +2049,118 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1172318334 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1672318537544257987, guid: cc270a305fa91777396f0e5828cf5e99,
+    type: 3}
+  m_PrefabInstance: {fileID: 1368874960}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1172318338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1172318334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14de6b9f8bb98f4409c6310f650f4218, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coffeeBarchart: {fileID: 2728440125337782225}
+  beerBarchart: {fileID: 1479209924}
+  studentBarchart: {fileID: 430407839}
+  detailText: {fileID: 1665072186}
+  definedButton: {fileID: 1172318334}
+  OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1172318338}
+        m_TargetAssemblyTypeName: stateScript, Assembly-CSharp
+        m_MethodName: showDetail
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  detailCard: {fileID: 646449165}
+  coffeeAmount: 2.7
+  beerAmount: 17.491
+  studentAmount: 404.090
+--- !u!64 &1172318339
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1172318334}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5037495255157162878, guid: cc270a305fa91777396f0e5828cf5e99, type: 3}
+--- !u!1 &1173318909 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3290049049193946956, guid: cc270a305fa91777396f0e5828cf5e99,
+    type: 3}
+  m_PrefabInstance: {fileID: 1368874960}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1173318913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1173318909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14de6b9f8bb98f4409c6310f650f4218, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coffeeBarchart: {fileID: 2728440125337782225}
+  beerBarchart: {fileID: 1479209924}
+  studentBarchart: {fileID: 430407839}
+  detailText: {fileID: 1665072186}
+  definedButton: {fileID: 1173318909}
+  OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1173318913}
+        m_TargetAssemblyTypeName: stateScript, Assembly-CSharp
+        m_MethodName: showDetail
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  detailCard: {fileID: 646449165}
+  coffeeAmount: 3.5
+  beerAmount: 1.786
+  studentAmount: 54.823
+--- !u!64 &1173318914
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1173318909}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7955303859985739825, guid: cc270a305fa91777396f0e5828cf5e99, type: 3}
 --- !u!1001 &1368874960
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1675,6 +2335,62 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc270a305fa91777396f0e5828cf5e99, type: 3}
+--- !u!1 &1463277170 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9205602006408711933, guid: cc270a305fa91777396f0e5828cf5e99,
+    type: 3}
+  m_PrefabInstance: {fileID: 1368874960}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1463277174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1463277170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14de6b9f8bb98f4409c6310f650f4218, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coffeeBarchart: {fileID: 2728440125337782225}
+  beerBarchart: {fileID: 1479209924}
+  studentBarchart: {fileID: 430407839}
+  detailText: {fileID: 1665072186}
+  definedButton: {fileID: 1463277170}
+  OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1463277174}
+        m_TargetAssemblyTypeName: stateScript, Assembly-CSharp
+        m_MethodName: showDetail
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  detailCard: {fileID: 646449165}
+  coffeeAmount: 3.2
+  beerAmount: 17.593
+  studentAmount: 764.565
+--- !u!64 &1463277175
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1463277170}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -655891748839280737, guid: cc270a305fa91777396f0e5828cf5e99, type: 3}
 --- !u!1001 &1479209923
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2005,6 +2721,62 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1665072184}
   m_CullTransparentMesh: 1
+--- !u!1 &1770116923 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -4384606268585288547, guid: cc270a305fa91777396f0e5828cf5e99,
+    type: 3}
+  m_PrefabInstance: {fileID: 1368874960}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1770116927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1770116923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14de6b9f8bb98f4409c6310f650f4218, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coffeeBarchart: {fileID: 2728440125337782225}
+  beerBarchart: {fileID: 1479209924}
+  studentBarchart: {fileID: 430407839}
+  detailText: {fileID: 1665072186}
+  definedButton: {fileID: 1770116923}
+  OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1770116927}
+        m_TargetAssemblyTypeName: stateScript, Assembly-CSharp
+        m_MethodName: showDetail
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  detailCard: {fileID: 646449165}
+  coffeeAmount: 3.2
+  beerAmount: 4.305
+  studentAmount: 121.060
+--- !u!64 &1770116928
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1770116923}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6076450161706068292, guid: cc270a305fa91777396f0e5828cf5e99, type: 3}
 --- !u!1 &1879954709
 GameObject:
   m_ObjectHideFlags: 0
@@ -2290,6 +3062,62 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1903577882}
   m_CullTransparentMesh: 1
+--- !u!1 &1982890329 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -446718610974795572, guid: cc270a305fa91777396f0e5828cf5e99,
+    type: 3}
+  m_PrefabInstance: {fileID: 1368874960}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1982890333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1982890329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14de6b9f8bb98f4409c6310f650f4218, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coffeeBarchart: {fileID: 2728440125337782225}
+  beerBarchart: {fileID: 1479209924}
+  studentBarchart: {fileID: 430407839}
+  detailText: {fileID: 1665072186}
+  definedButton: {fileID: 1982890329}
+  OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1982890333}
+        m_TargetAssemblyTypeName: stateScript, Assembly-CSharp
+        m_MethodName: showDetail
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  detailCard: {fileID: 646449165}
+  coffeeAmount: 3.4
+  beerAmount: 1.444
+  studentAmount: 262.759
+--- !u!64 &1982890334
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1982890329}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2981265132418678428, guid: cc270a305fa91777396f0e5828cf5e99, type: 3}
 --- !u!1 &2012840798
 GameObject:
   m_ObjectHideFlags: 0
