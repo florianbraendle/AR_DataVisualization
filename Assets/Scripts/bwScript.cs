@@ -12,6 +12,9 @@ public class bwScript : MonoBehaviour
     public GameObject definedButton;
     public UnityEvent OnClick = new UnityEvent();
     public GameObject detailCard;
+    public string coffeeAmount;
+    public string beerAmount;
+    public string studentAmount;
     //public TextMeshPro detailText;
     // Start is called before the first frame update
     void Start()
@@ -38,14 +41,14 @@ public class bwScript : MonoBehaviour
     public void showDetail() {
         detailCard.SetActive(true);
         if(coffeeBarchart.activeInHierarchy == true) {
-            detailText.text = "2.7 cups per day";
+            detailText.text =  coffeeAmount + " cups per day";
             coffeeBarchart.SetActive(false);
         } else if (beerBarchart.activeInHierarchy == true) {
-            detailText.text = "4.152 hectoliters in 2021";
+            detailText.text =  beerAmount + " hectoliters in 2021";
             beerBarchart.SetActive(false);
         } else if(studentBarchart.activeInHierarchy == true) {
             studentBarchart.SetActive(false);
-            detailText.text = "357.342 students in 2021/2022";
+            detailText.text = studentAmount + " students in 2021/2022";
         }
 
     }

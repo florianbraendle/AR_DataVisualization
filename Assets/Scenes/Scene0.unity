@@ -323,6 +323,9 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   detailCard: {fileID: 646449165}
+  coffeeAmount: 2.7
+  beerAmount: 4.152
+  studentAmount: 357.342
 --- !u!64 &193406287
 MeshCollider:
   m_ObjectHideFlags: 0
