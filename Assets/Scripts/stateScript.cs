@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.Events;
 using TMPro;
 
-public class stateScript : MonoBehaviour
+public class bwScript : MonoBehaviour
 {
     public GameObject coffeeBarchart, beerBarchart, studentBarchart;
     public TMPro.TextMeshProUGUI detailText;
@@ -15,7 +15,7 @@ public class stateScript : MonoBehaviour
     public string coffeeAmount;
     public string beerAmount;
     public string studentAmount;
-
+    //public TextMeshPro detailText;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,10 +30,10 @@ public class stateScript : MonoBehaviour
 
         if(Input.GetMouseButtonDown(0)) {
             if(Physics.Raycast(ray, out Hit) && Hit.collider.gameObject == gameObject) {
-                Debug.Log("state clicked");
+                Debug.Log("Clicked bw");
                 OnClick.Invoke();
             } else {
-                print("Clicked outside state!");
+                print("Clicked outside bw!");
             }
         }
     }
