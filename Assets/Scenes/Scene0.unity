@@ -819,17 +819,17 @@ PrefabInstance:
     - target: {fileID: 2728440125144014951, guid: 87c155b0fadc68c4da3d915ce90e1b19,
         type: 3}
       propertyPath: exampleDataSet.Array.data[0].barColor.b
-      value: 0.9811321
+      value: 0.043137256
       objectReference: {fileID: 0}
     - target: {fileID: 2728440125144014951, guid: 87c155b0fadc68c4da3d915ce90e1b19,
         type: 3}
       propertyPath: exampleDataSet.Array.data[0].barColor.g
-      value: 0.03147021
+      value: 0.44705883
       objectReference: {fileID: 0}
     - target: {fileID: 2728440125144014951, guid: 87c155b0fadc68c4da3d915ce90e1b19,
         type: 3}
       propertyPath: exampleDataSet.Array.data[0].barColor.r
-      value: 0.9479457
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2728440125144014951, guid: 87c155b0fadc68c4da3d915ce90e1b19,
         type: 3}
@@ -2536,17 +2536,17 @@ PrefabInstance:
     - target: {fileID: 2728440125144014951, guid: 87c155b0fadc68c4da3d915ce90e1b19,
         type: 3}
       propertyPath: exampleDataSet.Array.data[0].barColor.b
-      value: 0.9622642
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2728440125144014951, guid: 87c155b0fadc68c4da3d915ce90e1b19,
         type: 3}
       propertyPath: exampleDataSet.Array.data[0].barColor.g
-      value: 0.140497
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 2728440125144014951, guid: 87c155b0fadc68c4da3d915ce90e1b19,
         type: 3}
       propertyPath: exampleDataSet.Array.data[0].barColor.r
-      value: 0.030865014
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2728440125144014951, guid: 87c155b0fadc68c4da3d915ce90e1b19,
         type: 3}
@@ -3405,6 +3405,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2728440125144014951, guid: 87c155b0fadc68c4da3d915ce90e1b19,
+        type: 3}
+      propertyPath: exampleDataSet.Array.data[0].barColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2728440125144014951, guid: 87c155b0fadc68c4da3d915ce90e1b19,
+        type: 3}
+      propertyPath: exampleDataSet.Array.data[0].barColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2728440125144014951, guid: 87c155b0fadc68c4da3d915ce90e1b19,
+        type: 3}
+      propertyPath: exampleDataSet.Array.data[0].barColor.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2728440125144014953, guid: 87c155b0fadc68c4da3d915ce90e1b19,
         type: 3}
