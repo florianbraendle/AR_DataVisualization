@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2973323562404898053
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2973323562404898051}
+  - component: {fileID: 2973323562404898052}
+  m_Layer: 0
+  m_Name: SceneManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &2973323562404898051
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2973323562404898053}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2973323562404898052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2973323562404898053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe54ffcfd439ce91490d117f23fb388f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dataSets:
+  - UniqueGroupName: coffee
+    barColor: {r: 0.039215688, g: 0.99215686, b: 0.2, a: 0}
+    barMaterial: {fileID: 0}
+    listOfDataPoints:
+    - value: 3.5
+      germanState: 0
+    - value: 3
+      germanState: 1
+    - value: 4
+      germanState: 2
+    - value: 0
+      germanState: 3
+    - value: 0
+      germanState: 4
+    - value: 4
+      germanState: 5
+    - value: 0
+      germanState: 6
+    - value: 6
+      germanState: 7
+    - value: 0
+      germanState: 8
+    - value: 5
+      germanState: 9
+    - value: 0
+      germanState: 10
+    - value: 0
+      germanState: 11
+    - value: 4
+      germanState: 12
+    - value: 0
+      germanState: 12
+    - value: 6
+      germanState: 13
+    - value: 0
+      germanState: 14
+    - value: 0
+      germanState: 15
+    image: {fileID: 21300000, guid: cb6fb334f15d2414ba202df52483aa72, type: 3}
+  - UniqueGroupName: beer
+    barColor: {r: 0.082903184, g: 0.14536814, b: 0.764151, a: 0}
+    barMaterial: {fileID: 0}
+    listOfDataPoints:
+    - value: 3.5
+      germanState: 0
+    - value: 3
+      germanState: 1
+    - value: 4
+      germanState: 2
+    - value: 0
+      germanState: 3
+    - value: 0
+      germanState: 4
+    - value: 4
+      germanState: 5
+    - value: 0
+      germanState: 6
+    - value: 6
+      germanState: 7
+    - value: 0
+      germanState: 8
+    - value: 5
+      germanState: 9
+    - value: 0
+      germanState: 10
+    - value: 0
+      germanState: 11
+    - value: 4
+      germanState: 12
+    - value: 0
+      germanState: 12
+    - value: 6
+      germanState: 13
+    - value: 0
+      germanState: 14
+    - value: 0
+      germanState: 15
+    image: {fileID: 21300000, guid: 13d8091d780e5ca4cbea1eb1d5356019, type: 3}
+  - UniqueGroupName: students
+    barColor: {r: 0.7647059, g: 0.082352936, b: 0.15482028, a: 0}
+    barMaterial: {fileID: 0}
+    listOfDataPoints:
+    - value: 3.5
+      germanState: 0
+    - value: 3
+      germanState: 1
+    - value: 4
+      germanState: 2
+    - value: 0
+      germanState: 3
+    - value: 0
+      germanState: 4
+    - value: 4
+      germanState: 5
+    - value: 0
+      germanState: 6
+    - value: 6
+      germanState: 7
+    - value: 0
+      germanState: 8
+    - value: 5
+      germanState: 9
+    - value: 0
+      germanState: 10
+    - value: 0
+      germanState: 11
+    - value: 4
+      germanState: 12
+    - value: 0
+      germanState: 12
+    - value: 6
+      germanState: 13
+    - value: 0
+      germanState: 14
+    - value: 0
+      germanState: 15
+    image: {fileID: 21300000, guid: 536652903ec463b4a924bcb28b6918ce, type: 3}
+  buttonPrefab: {fileID: 5103247623353697147, guid: 6d363dc39c08ae81fbad99ed75c51fd3,
+    type: 3}
+  mapToSpawn: {fileID: 317976905160210926, guid: 61d01428995318d7ea2ae1393e977332,
+    type: 3}
+  barchart_x_offset: 0
+  barchart_y_offset: 0
+  barchart_z_offset: 100
+  generalBarGraphPrefab: {fileID: 4470160549908493630, guid: eb209040e5151d651bff912a70b8c1f8,
+    type: 3}

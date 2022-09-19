@@ -176,7 +176,7 @@ namespace BarGraph.VittorCloud
         public void GeneratBarGraph(List<BarGraphDataSet> dataSet)
         {
 
-
+            Debug.Log("BarGraphGenerator - GeratBarGraph");
             if (dataSet == null)
             {
                 return;
@@ -202,6 +202,7 @@ namespace BarGraph.VittorCloud
 
         private void ParseTheDataset()
         {
+            Debug.Log("ParseTheDataset");
             if (ListOfDataSet.Count <= 0)
             {
                 Debug.LogError("No data set inserted!!");
@@ -282,6 +283,7 @@ namespace BarGraph.VittorCloud
 
         void InitializeGraph()
         {
+            Debug.Log("InitializeGraph");
             Graph = Instantiate(GraphRef, transform.position, Quaternion.identity);
             Graph.transform.rotation = this.transform.rotation;
             Graph.transform.parent = this.transform;
@@ -303,6 +305,7 @@ namespace BarGraph.VittorCloud
 
         public void AssignGraphAxisName()
         {
+            Debug.Log("AssignGraphAxisName");
             for (int i = 0; i < ListOfDataSet.Count; i++)
             {
                 for (int j = 0; j < ListOfDataSet[i].ListOfBars.Count; j++)
@@ -354,7 +357,7 @@ namespace BarGraph.VittorCloud
         public void CreateBarsWithAnimTypeTwo()
         {
 
-
+            Debug.Log("CreateBarsWithAnimTypeTwo");
             for (int i = 0; i < ListOfDataSet.Count; i++)
             {
                 for (int j = 0; j < ListOfDataSet[i].ListOfBars.Count; j++)
